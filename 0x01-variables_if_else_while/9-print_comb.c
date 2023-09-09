@@ -10,16 +10,13 @@ int a;
 
 for (a = 0 ; a < 10 ; a++)
 {
+putchar(a + '0');
 if (a <= 8)
 {
-putchar(a + '0');
 putchar(',');
-}
-else
-{
-putchar(a + '0');
 }
 putchar(' ');
 }
+putchar('\n');
 return (0);
 }
