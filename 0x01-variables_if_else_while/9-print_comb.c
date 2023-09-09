@@ -14,8 +14,8 @@ putchar(a + '0');
 if (a <= 8)
 {
 putchar(',');
-}
 putchar(' ');
+}
 }
 putchar('\n');
 return (0);
