@@ -14,12 +14,12 @@ if (a <= 8)
 {
 putchar(a + '0');
 putchar(',');
-putchar(' ');
 }
 else
 {
-putchar(a + '0 ');
+putchar(a + '0');
 }
+putchar(' ');
 }
 return (0);
 }
