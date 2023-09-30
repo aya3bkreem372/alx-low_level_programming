@@ -6,9 +6,11 @@
  *@s: pointers to the string
  *Return: void
  */
-char on = 'c';
 
 void _puts_recursion(char *s)
+{
+on = 'c';
+}
 {
 if (*s == '\0')
 {
